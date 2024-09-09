@@ -6,7 +6,7 @@ const ImageWithTransition = ({ src, showImage } : {src: string, showImage: boole
 
     return (
         <Fade in={showImage} timeout={1000}>
-            <Image src={src} alt="My Image" />
+            <Image src={src} alt="My Image" width={300} height={100}/>
         </Fade>
     );
 };

@@ -26,7 +26,7 @@ const navigation: NavigationItem[] = [
 
 export default function Header() {
   const router = useRouter();
-  const [isSelected, setIsSelected] = useState(1);
+  const [isSelected, setIsSelected] = useState(0);
   const handleSelect = (item: NavigationItem, index: number) => {
     setIsSelected(index);
     router.push(item.href);
