@@ -20,6 +20,7 @@ export default function Error({
     setOpen(false);
   };
 
+  console.log("hola mundo")
   return (
     <div>
       <Snackbar open={open} autoHideDuration={5000}>
