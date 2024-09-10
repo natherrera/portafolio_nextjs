@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.13.0",
     "@headlessui/react": "^2.1.5",
     "@heroicons/react": "^2.1.5",
+    "@mui/icons-material": "^6.0.2",
     "@mui/material": "^6.0.2",
     "fs": "^0.0.1-security",
     "next": "14.2.8",
